@@ -1,11 +1,124 @@
-<!-- templates/index.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bike Rental Prediction</title>
+    <title>Bike Rental Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 40px;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 650px;
+            margin: auto;
+        }
+        input, select {
+            width: 90%;
+            padding: 10px;
+            margin: 10px auto;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #ffcc00;
+            color: #000;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input[type="submit"]:hover {
+            background-color: #ffaa00;
+        }
+        img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Bike Rental Prediction App</h1>
-    <p>This is your deployed Flask app working on Render!</p>
+    <div class="container">
+        <img src="https://cdn-icons-png.flaticon.com/512/2972/2972241.png" alt="Bike Icon">
+        <h2>🚲 Bike Rental Demand Predictor</h2>
+        <form action="/predict" method="post">
+
+            <label>Season:</label>
+            <select name="season" required>
+                <option value="1" {% if form.season == "1" %}selected{% endif %}>Spring</option>
+                <option value="2" {% if form.season == "2" %}selected{% endif %}>Summer</option>
+                <option value="3" {% if form.season == "3" %}selected{% endif %}>Fall</option>
+                <option value="4" {% if form.season == "4" %}selected{% endif %}>Winter</option>
+            </select><br>
+
+            <label>Year:</label>
+            <select name="yr" required>
+                <option value="0" {% if form.yr == "0" %}selected{% endif %}>2011</option>
+                <option value="1" {% if form.yr == "1" %}selected{% endif %}>2012</option>
+            </select><br>
+
+            <label>Month:</label>
+            <select name="mnth" required>
+                {% for i, name in [('1','January'),('2','February'),('3','March'),('4','April'),('5','May'),
+                                   ('6','June'),('7','July'),('8','August'),('9','September'),('10','October'),
+                                   ('11','November'),('12','December')] %}
+                <option value="{{ i }}" {% if form.mnth == i %}selected{% endif %}>{{ name }}</option>
+                {% endfor %}
+            </select><br>
+
+            <label>Holiday:</label>
+            <select name="holiday" required>
+                <option value="0" {% if form.holiday == "0" %}selected{% endif %}>No</option>
+                <option value="1" {% if form.holiday == "1" %}selected{% endif %}>Yes</option>
+            </select><br>
+
+            <label>Weekday:</label>
+            <select name="weekday" required>
+                {% for i, day in [('0','Sunday'),('1','Monday'),('2','Tuesday'),('3','Wednesday'),
+                                  ('4','Thursday'),('5','Friday'),('6','Saturday')] %}
+                <option value="{{ i }}" {% if form.weekday == i %}selected{% endif %}>{{ day }}</option>
+                {% endfor %}
+            </select><br>
+
+            <label>Working Day:</label>
+            <select name="workingday" required>
+                <option value="0" {% if form.workingday == "0" %}selected{% endif %}>No</option>
+                <option value="1" {% if form.workingday == "1" %}selected{% endif %}>Yes</option>
+            </select><br>
+
+            <label>Weather:</label>
+            <select name="weathersit" required>
+                <option value="1" {% if form.weathersit == "1" %}selected{% endif %}>Clear or Partly Cloudy</option>
+                <option value="2" {% if form.weathersit == "2" %}selected{% endif %}>Misty or Cloudy</option>
+                <option value="3" {% if form.weathersit == "3" %}selected{% endif %}>Light Snow or Rain</option>
+                <option value="4" {% if form.weathersit == "4" %}selected{% endif %}>Heavy Rain or Fog</option>
+            </select><br>
+
+            <label>Temperature (°C):</label>
+            <input type="number" step="0.1" name="temp" min="0" max="50" required value="{{ form.temp }}"><br>
+
+            <label>Feels Like Temp (°C):</label>
+            <input type="number" step="0.1" name="atemp" min="0" max="50" required value="{{ form.atemp }}"><br>
+
+            <label>Humidity (%):</label>
+            <input type="number" step="1" name="hum" min="0" max="100" required value="{{ form.hum }}"><br>
+
+            <label>Windspeed (km/h):</label>
+            <input type="number" step="0.1" name="windspeed" min="0" max="50" required value="{{ form.windspeed }}"><br>
+
+            <input type="submit" value="🔍 Predict">
+        </form>
+
+        {% if prediction %}
+            <h3>📈 Predicted Rentals: {{ prediction }}</h3>
+        {% endif %}
+    </div>
 </body>
 </html>
