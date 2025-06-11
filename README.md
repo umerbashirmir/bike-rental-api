@@ -49,7 +49,7 @@ Flask Api Script -----> bike_rental_model.pkl
 ## Trained random foret model -----> requirements.txt ----- runtime.txt
 
 
-post  https://bike-rental-api-6h1y.onrender.com 
+
 
 ## json input 
 {
@@ -73,7 +73,7 @@ post  https://bike-rental-api-6h1y.onrender.com
 }
 
 ## 🌐 Live Demo
-👉 https://bike-rental-api-6h1y.onrender.com
+
 
 
 
@@ -84,5 +84,5 @@ post  https://bike-rental-api-6h1y.onrender.com
 
 
 
- ## CREATED BY ABBAS NAZIR 
- DATE : 28 / MAY / 2025
+ ## CREATED BY umer bashir mir 
+ DATE : 11 / June / 2025
