@@ -1,0 +1,11 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bike Rental Prediction</title>
+</head>
+<body>
+    <h1>Welcome to Bike Rental Prediction App</h1>
+    <p>This is your deployed Flask app working on Render!</p>
+</body>
+</html>
