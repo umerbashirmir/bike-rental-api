@@ -81,4 +81,4 @@ Prediction Returned as JSON
 ---
 
 GitHub Repository:  
-[)
+https://github.com/umerbashirmir/bike-rental-api/upload
