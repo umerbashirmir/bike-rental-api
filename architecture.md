@@ -35,6 +35,6 @@ User Input (Postman)  Flask API Load Model (.pkl)  Make Prediction  Return JSON 
 ## 🧰 Deployment
 
 - Platform: Render (uses GitHub auto-deploy)
-- Public URL: [https://bike-rental-api.onrender.com](https://bike-rental-api.onrender.com)
+- Public URL: [https://bike-rental-api.onrender.com](https://bike-rental-api-fg6y.onrender.com)
 - Method: GitHub → Render Web Service
 - Port: 5000 (bound to 0.0.0.0)
