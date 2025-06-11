@@ -1,0 +1,84 @@
+ Project Title: Bike Rental Demand Prediction API
+
+ Date: 28 May 2025  
+ Created by: Abbas Nazir   , Tanveer ahamd rather , umer Bashir mir
+
+---
+
+ OBJECTIVE:
+To build and deploy a machine learning model that predicts daily bike rental demand based on calendar and weather data. The project includes end-to-end training, evaluation, and deployment using a Flask API.
+
+---
+
+ TOOLS & TECHNOLOGIES:
+- Python
+- Flask
+- Scikit-learn
+- Joblib
+- Render (deployment)
+- GitHub
+- Postman (testing)
+
+---
+
+ DATASET:
+- Source: CSV file with historical bike rental records
+- Features: Season, year, month, holiday, workingday, weather, temp, atemp, humidity, windspeed
+- Target: Count of bike rentals
+
+---
+
+ PROCESS:
+
+1. Data Preprocessing
+   - Checked for nulls
+   - Feature selection & encoding
+   - Scaling as needed
+
+2. Model Building
+   - Trained Linear Regression and Random Forest Regressor
+   - Evaluated with MSE, RMSE, and R² Score
+   - Saved the best model (Random Forest) using joblib
+
+3. API Development
+   - Created Flask app with / and /predict endpoints
+   - Used JSON input and returned prediction as JSON response
+
+4. Deployment
+   - Pushed project to GitHub
+   - Deployed Flask app on Render
+   - Bound to port 5000 and 0.0.0.0 for production access
+
+5. Testing
+   - Tested API using Postman and Python requests
+   - Verified predictions return successfully
+
+---
+
+ ARCHITECTURE SUMMARY:
+
+User Input (Postman or Script)  
+↓  
+Flask API on Render  
+↓  
+Model Loaded (bike_rental_model.pkl)  
+↓  
+Prediction Returned as JSON
+
+---
+
+ STATUS:
+ Successfully deployed  
+ API working live at: [https://bike-rental-api.onrender.com](https://bike-rental-api.onrender.com)  
+ Tested with real input
+
+---
+ FUTURE IMPROVEMENTS:
+- Add web UI using HTML/CSS or React
+- Add model versioning and monitoring
+- Migrate to FastAPI for performance
+
+---
+
+GitHub Repository:  
+[https://github.com/Abbasnazir/bike-rantal-api](https://github.com/Abbasnazir/bike-rantal-api)

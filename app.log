@@ -1,0 +1,122 @@
+2025-05-28 12:29:26,772 INFO: Model loaded successfully.
+2025-05-28 12:29:42,718 INFO: Model loaded successfully.
+2025-05-28 12:29:57,903 INFO: Model loaded successfully.
+2025-05-28 12:29:57,905 INFO: Starting Flask server...
+2025-05-28 12:29:57,929 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:29:57,929 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:29:57,930 INFO:  * Restarting with stat
+2025-05-28 12:30:00,299 INFO: Model loaded successfully.
+2025-05-28 12:30:00,302 INFO: Starting Flask server...
+2025-05-28 12:30:00,312 WARNING:  * Debugger is active!
+2025-05-28 12:30:00,318 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:34:23,243 INFO: Model loaded successfully.
+2025-05-28 12:34:23,244 INFO: Starting Flask server...
+2025-05-28 12:34:23,271 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:34:23,271 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:34:23,273 INFO:  * Restarting with stat
+2025-05-28 12:34:25,593 INFO: Model loaded successfully.
+2025-05-28 12:34:25,595 INFO: Starting Flask server...
+2025-05-28 12:34:25,604 WARNING:  * Debugger is active!
+2025-05-28 12:34:25,609 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:41:04,091 INFO: Model loaded successfully.
+2025-05-28 12:41:04,093 INFO: Starting Flask server...
+2025-05-28 12:41:04,118 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:41:04,118 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:41:04,120 INFO:  * Restarting with stat
+2025-05-28 12:41:06,364 INFO: Model loaded successfully.
+2025-05-28 12:41:06,365 INFO: Starting Flask server...
+2025-05-28 12:41:06,375 WARNING:  * Debugger is active!
+2025-05-28 12:41:06,380 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:42:10,539 INFO: Model loaded successfully.
+2025-05-28 12:42:10,540 INFO: Starting Flask server...
+2025-05-28 12:42:10,563 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:42:10,564 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:42:10,566 INFO:  * Restarting with stat
+2025-05-28 12:42:12,872 INFO: Model loaded successfully.
+2025-05-28 12:42:12,874 INFO: Starting Flask server...
+2025-05-28 12:42:12,885 WARNING:  * Debugger is active!
+2025-05-28 12:42:12,890 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:45:54,990 INFO:  * Detected change in 'C:\\Users\\abbas\\bike_rental_api\\app.py', reloading
+2025-05-28 12:45:55,360 INFO:  * Restarting with stat
+2025-05-28 12:45:58,013 INFO: Model loaded successfully.
+2025-05-28 12:45:58,015 INFO: Starting Flask server...
+2025-05-28 12:45:58,025 WARNING:  * Debugger is active!
+2025-05-28 12:45:58,030 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:46:22,173 INFO: Model loaded successfully.
+2025-05-28 12:46:22,175 INFO: Starting Flask server...
+2025-05-28 12:46:22,204 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:46:22,204 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:46:22,207 INFO:  * Restarting with stat
+2025-05-28 12:46:24,457 INFO: Model loaded successfully.
+2025-05-28 12:46:24,458 INFO: Starting Flask server...
+2025-05-28 12:46:24,467 WARNING:  * Debugger is active!
+2025-05-28 12:46:24,472 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:46:47,960 INFO: Model loaded successfully.
+2025-05-28 12:46:47,961 INFO: Starting Flask server...
+2025-05-28 12:46:47,983 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:46:47,984 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:46:47,985 INFO:  * Restarting with stat
+2025-05-28 12:46:50,513 INFO: Model loaded successfully.
+2025-05-28 12:46:50,514 INFO: Starting Flask server...
+2025-05-28 12:46:50,523 WARNING:  * Debugger is active!
+2025-05-28 12:46:50,528 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:47:14,557 INFO: Model loaded successfully.
+2025-05-28 12:47:14,572 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:47:14,572 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:48:24,874 INFO: Model loaded successfully.
+2025-05-28 12:48:24,876 INFO: Starting Flask server...
+2025-05-28 12:48:24,903 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:48:24,903 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:48:24,906 INFO:  * Restarting with stat
+2025-05-28 12:48:27,165 INFO: Model loaded successfully.
+2025-05-28 12:48:27,167 INFO: Starting Flask server...
+2025-05-28 12:48:27,176 WARNING:  * Debugger is active!
+2025-05-28 12:48:27,181 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:48:48,583 INFO:  * Detected change in 'C:\\Users\\abbas\\bike_rental_api\\app.py', reloading
+2025-05-28 12:48:48,945 INFO:  * Restarting with stat
+2025-05-28 12:48:51,462 INFO: Model loaded successfully.
+2025-05-28 12:48:51,464 INFO: Starting Flask server...
+2025-05-28 12:48:51,474 WARNING:  * Debugger is active!
+2025-05-28 12:48:51,480 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:51:34,322 INFO:  * Detected change in 'C:\\Users\\abbas\\bike_rental_api\\app.py', reloading
+2025-05-28 12:51:34,708 INFO:  * Restarting with stat
+2025-05-28 12:53:07,978 INFO: Model loaded successfully.
+2025-05-28 12:53:45,419 INFO: Model loaded successfully.
+2025-05-28 12:55:59,171 INFO: Model loaded successfully.
+2025-05-28 12:55:59,173 INFO: Starting Flask server...
+2025-05-28 12:55:59,198 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:55:59,198 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:55:59,200 INFO:  * Restarting with stat
+2025-05-28 12:56:01,677 INFO: Model loaded successfully.
+2025-05-28 12:56:01,679 INFO: Starting Flask server...
+2025-05-28 12:56:01,689 WARNING:  * Debugger is active!
+2025-05-28 12:56:01,695 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 12:58:39,366 INFO: Model loaded successfully.
+2025-05-28 12:58:39,368 INFO: Starting Flask server...
+2025-05-28 12:58:39,393 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 12:58:39,394 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 12:58:39,395 INFO:  * Restarting with stat
+2025-05-28 12:58:41,663 INFO: Model loaded successfully.
+2025-05-28 12:58:41,664 INFO: Starting Flask server...
+2025-05-28 12:58:41,674 WARNING:  * Debugger is active!
+2025-05-28 12:58:41,679 INFO:  * Debugger PIN: 179-944-238
+2025-05-28 13:01:34,735 INFO: Model loaded successfully.
+2025-05-28 13:01:34,737 INFO: Starting Flask server...
+2025-05-28 13:01:34,759 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-28 13:01:34,759 INFO: [33mPress CTRL+C to quit[0m
+2025-05-28 13:01:34,762 INFO:  * Restarting with stat
+2025-05-28 13:01:37,042 INFO: Model loaded successfully.
+2025-05-28 13:01:37,044 INFO: Starting Flask server...
+2025-05-28 13:01:37,055 WARNING:  * Debugger is active!
+2025-05-28 13:01:37,060 INFO:  * Debugger PIN: 179-944-238
