@@ -1,7 +1,7 @@
  Project Title: Bike Rental Demand Prediction API
 
  Date: 28 May 2025  
- Created by: Abbas Nazir   , Tanveer ahamd rather , umer Bashir mir
+ Created by:  umer Bashir mir
 
 ---
 
@@ -81,4 +81,4 @@ Prediction Returned as JSON
 ---
 
 GitHub Repository:  
-[https://github.com/Abbasnazir/bike-rantal-api](https://github.com/Abbasnazir/bike-rantal-api)
+[)
